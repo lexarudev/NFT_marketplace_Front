@@ -15,8 +15,9 @@ export const siteConfig =
         REWARDS_WRAPPER: "0xC78A09D6a4badecc7614A339FD264B7290361ef1",
         REWARDS_DERIVER: "0xaFB71004636fCAf6fb15959A7dD19db4779c3237",
         CAMPAIGN_TRACKER_ADDRESS: "0x3Dadc74B465034276bE0Fa55240e1a67d7e3a266",
-        BACKEND_URL: "https://nez.kreatorland.com",
-        BACKEND_TOKEN: "",
+        BACKEND_URL: "https://quixotic-opt-mainnet.herokuapp.com",
+        // BACKEND_URL: "https://nez.kreatorland.com",
+        BACKEND_TOKEN: "abf6b7be54f3ed9ba696723fb4155a67b88277b4",
       }
     : process.env.NEXT_PUBLIC_NETWORK == "opt-goerli"
     ? {
@@ -33,6 +34,6 @@ export const siteConfig =
         L2_BRIDGE_ADDRESS: "0x4200000000000000000000000000000000000014",
         LOGO_BADGE: "Goerli",
         BACKEND_URL: "https://nez.kreatorland.com",
-        BACKEND_TOKEN: "",
+        BACKEND_TOKEN: "abf6b7be54f3ed9ba696723fb4155a67b88277b4",
       }
     : {};
